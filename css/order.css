@@ -1,0 +1,136 @@
+#order {
+  margin: 60px 120px 0px 120px;
+}
+
+#order > h1 {
+  color: #e93e31;   font-style: italic;   font-size: 18px;   font-weight: normal;
+}
+
+#order > form {
+  display: block;   margin-top: 32px;
+}
+
+#order > form > .fields {
+  overflow: auto;
+}
+
+#order > form > .fields > .column {
+  float: left;   width: 380px;
+}
+
+#order > form > .fields > .column:first-child + div {
+  float: right;
+}
+
+#order > form > .fields > .column > .caption {
+  font-size: 16px;   color: #b0b0b0;   font-style: italic;   padding-left: 100px;
+}
+
+#order > form > .fields > .column > .field {
+  height: 24px;   padding: 7px 0px;
+}
+
+#order > form > .fields > .column > .field > label {
+  display: block;   width: 80px;   float: left;    color: #111;   font-size: 16px;   font-style: italic;   line-height: 24px;
+}
+
+#order > form > .fields > .column > .field > .star {
+  float: left;   width: 20px;   color: #eb4e4f;   font-size: 16px;   margin-top: 3px;   text-align: center;   visibility: hidden;
+}
+
+#order > form > .fields > .column > .field[mandatory] > .star {
+  visibility: visible;
+}
+
+#order > form > .fields > .column > .field > input {
+  display: block;   width: 262px;   float: left;    height: 20px;   line-height: 20px;   border: 1px solid #c0c0c0;    padding: 1px 8px;    font-size: 14px;   font-style: italic;
+}
+
+#order > form > .hr {
+  height: 1px;   background: #c0c0c0;   margin-top: 30px;
+}
+
+#order > form > #items {   overflow: auto;   margin-top: 16px;
+}
+
+#items > div {
+  width: 50%;   float: left;
+}
+
+#items > div.left > .items {
+  margin-top: 8px;   width: 380px;
+}
+
+#items > div.left > .items > div {
+  height: 22px;   margin: 5px 0px;
+}
+
+#items .items > div > * {
+  float: left;
+}
+
+#items .items > div > .code {
+  width: 50px;   font-size: 12px;   font-style: italic;   color: #111;
+}
+
+#items .items > div > a {
+  display: block;   color: #3f7fd9;   text-decoration: underline;   font-size: 12px;
+}
+
+#items .items > div > input {
+  width: 22px;   padding: 0px 4px;   float: right;   display: block;   height: 17px;   border: 1px solid #b0b0b0;   font-size: 12px;   font-style: italic;   line-height: 17px;   text-align: right;   border-radius: 2px;
+}
+
+#items .dimensions {
+  margin-top: 24px;   height: 54px;   background: url('../images/order-gift-icon.png') no-repeat;   padding: 16px 0px 0px 64px;
+}
+
+#items .dimensions > div {}
+
+#items .dimensions > div {
+  color: #888;   font-size: 12px;   font-style: italic;
+}
+
+#items .dimensions > div > span {
+  color: #111;
+}
+
+#items .container {
+  background: #f2f2f2;   position: relative;   height: 180px;   width: 380px;   float: right;
+}
+
+#items .container > * {
+  position: absolute;   left: 40px;
+}
+
+#items .container div:first-child {
+  background: url('../images/wavy-border.png') repeat-x;   height: 7px;   width: 100%;   left: 0px;
+}
+
+#items .container div:last-child {
+  position: absolute;   bottom: 0px;   left: 0px;   background: url('../images/filter-border.png') repeat-x;   height: 4px;   width: 100%;
+}
+
+#items .container > .total {
+  top: 14px;   font-size: 34px;   font-style: italic;   color: #fd4141;
+}
+
+#items .container > input[type=button] {
+  display: block;   bottom: 12px;
+}
+
+#items .container > .delivery {
+  left: 180px;   top: 26px;   color: #636363;   font-size: 19px;   font-style: italic;
+}
+
+#items .container > div > label > input {
+  float: left;   margin: 5px;
+}
+
+#items .container > .visa {
+  top: 90px;
+}
+
+#items .container > .paypal {
+  top: 90px;   left: 170px;
+}

@@ -1,0 +1,42 @@
+* {
+  border: none; border-collapse: collapse; border-spacing: 0; padding: 0px; margin: 0px; font-family: "trebuchet ms"; font-size: 11px; color: #111; outline: none; text-decoration: none; line-height: 1.5;
+}
+
+* * {
+  font-family: inherit; font-size: inherit;
+}
+
+.fancyRedButton {
+  display: inline-block;
+  height: 36px;
+  padding: 0px 16px;
+
+  background-image: linear-gradient(bottom, rgb(208,21,21) 0%, rgb(254,66,66) 70%);
+  background-image: -o-linear-gradient(bottom, rgb(208,21,21) 0%, rgb(254,66,66) 70%);
+  background-image: -moz-linear-gradient(bottom, rgb(208,21,21) 0%, rgb(254,66,66) 70%);
+  background-image: -webkit-linear-gradient(bottom, rgb(208,21,21) 0%, rgb(254,66,66) 70%);
+  background-image: -ms-linear-gradient(bottom, rgb(208,21,21) 0%, rgb(254,66,66) 70%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(208,21,21)),
+    color-stop(0.7, rgb(254,66,66))
+    );
+
+  border-radius: 7px;
+
+  color: #fff;
+
+  font-size: 22px;
+  line-height: 36px;
+
+  text-shadow: 0px -1px 1px #b82121;
+
+  cursor: pointer;
+}
+
+.fancyRedButton:hover {
+  background: #ff4343;
+}

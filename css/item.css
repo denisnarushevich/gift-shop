@@ -1,0 +1,176 @@
+#item {
+  margin: 80px 70px 0px 70px;
+}
+
+#item > .cols {
+  overflow: auto;
+}
+
+#item > .cols > div {
+  float: left;   width: 50%;
+}
+
+#colL {
+  position: relative;   text-align: center;
+}
+
+#colL > .arrowL, #colL > .arrowR {
+  display: block;   position: absolute;   height: 63px;   width: 12px;   background: url('../images/item-arrows.png') no-repeat;   margin-top: -32px;   top: 50%;   left: 16px;   cursor: hand;
+}
+
+#colL > .arrowR {
+  left: auto;   right: 16px;   background-position: -12px 0px;
+}
+
+#colL > .arrowL:hover, #colL > .arrowR:hover {
+  opacity: .5;
+}
+
+#colL > .dots {
+  position: absolute;   top: 45px;   left: 90px;   overflow: auto;
+}
+
+#colL > .dots > a {
+  margin: 0px 3px;   display: block;   float: left;   width: 9px;   height: 9px;   background: url('../images/item-dots.png') no-repeat 0% 0%;
+}
+
+#colL > .dots > a[active], #colL > .dots > a:hover {
+  background-position: 0% 100%;
+}
+
+#colR {
+  margin-left: 30px;
+}
+
+#colR > h2 {
+  color: #555;   font-style: italic;   font-size: 12px;   font-weight: normal;
+}
+
+#colR > h2 > span {
+  display: inline-block;   padding-left: 22px;   margin-left: 10px;   background: url('../images/catalogue-arrow.png') no-repeat left 50%;    color: #555;   font-size: 12px;
+}
+
+#colR > h1 {
+  font-size: 28px;   color: #888;   font-weight: normal;   font-style: italic;   margin-top: 20px;
+}
+
+#colR > .dscDim {
+  overflow: auto;   margin-top: 4px;   font-size: 14px;   color: #111;
+}
+
+#colR > .dscDim > div {
+  float: left;
+}
+
+#colR > .dscDim > .dsc {
+  line-height: 1.3;   margin-top: 14px;
+}
+
+#colR > .dscDim > .dim {
+  line-height: 1.3;   font-size: 12px;   font-style: italic;   background: url('../images/order-gift-icon.png') no-repeat 0% 50%;   height: 36px;   margin-left: 100px;   padding-left: 64px;   padding-top: 18px;
+}
+
+#colR > .vert {
+  overflow: auto;   margin-top: 32px;
+}
+
+#colR > .vert > div {
+  float: left;   line-height: 28px;
+}
+
+#colR > .vert > .amount {
+  height: 28px;   line-height: 28px;   color: #111;   font-size: 14px;   float: left;
+}
+
+#colR > .vert > .amount > input {
+  display: inline-block;   width: 32px;   border-radius: 2px;   border: 1px solid #c0c0c0;   color: #111;   height: 21px;   line-height: 21px;   font-style: italic;   padding: 0px 2px;   margin-left: 4px;
+}
+
+#colR > .vert > .aval {
+  line-height: 28px;   float: left;   color: #888;   font-size: 12px;   margin-left: 24px;
+}
+
+#colR > .vert > .soc {
+  float: right;
+}
+
+#colR > .vert > .soc > div {
+  display: inline-block;   height: 28px;   vertical-align: top;   line-height: 28px;   margin-right: 8px;   color: #888;   font-size: 12px;
+}
+
+#colR > .vert > .soc > a {
+  vertical-align: top;   display: inline-block;   height: 28px;   width: 28px;   background: url('../images/social-buttons.png') no-repeat;   border-radius: 3px;   margin: 0px 2px;
+}
+
+#colR > .vert > .soc > a:hover {
+  background-color: #eee;
+}
+
+#colR > .vert > .soc > a.tw {
+  background-position: -28px 0px;
+}
+
+#colR > .vert > .soc > a.g {
+  background-position: -56px 0px;
+}
+
+#colR > .cont {
+  background: #f2f2f2;   position: relative;   height: 160px;   margin-top: 20px;
+}
+
+#colR > .cont > div {
+  position: absolute;
+}
+
+#colR > .cont > div:first-child {
+  top: 0px;   width: 100%;   height: 7px;   background: url('../images/wavy-border.png');
+}
+
+#colR > .cont > div:last-child {
+  bottom: 0px;   width: 100%;   height: 4px;   background: url('../images/filter-border.png');
+}
+
+#colR > .cont > .price {
+  top: 20px;   left: 40px;   font-size: 34px;   font-style: italic;   color: #d83833;
+}
+
+#colR > .cont > .price > span {
+  text-decoration: line-through;   color: #111;   font-size: 20px;
+}
+
+#colR > .cont > .fancyRedButton {
+  display: block;   left: 40px;   bottom: 32px;   padding-left: 40px;   padding-right: 40px;
+}
+
+#colR > .cont > .del {
+  left: 225px;   top: 32px;   height: 30px;   background: url('../images/delivery-icon-big.png') no-repeat left 50%;   padding-left: 74px;   line-height: 34px;
+}
+
+#colR > .cont > .del > a {
+  display: inline-block;   border-bottom: 1px dashed #888;   color: #888;   font-size: 18px;   line-height: 1;
+}
+
+#colR > .cont > .del > a:hover {
+  border: 0px;
+  color: #667;
+}
+
+#colR > .cont > .fav {
+  left: 225px;   top: 90px;   height: 39px;   background: url('../images/item-gift-icon.png') no-repeat 20px 50%;   padding-left: 74px;   line-height: 39px;
+}
+
+#colR > .cont > .fav > a {
+  display: inline-block;   border-bottom: 1px dashed #888;   color: #888;   font-size: 18px;   line-height: 1;
+}
+
+#colR > .cont > .fav > a:hover {
+  border: 0px;   color: #667;
+}
+
+#slider {
+  margin-left: -70px;   margin-right: -70px;
+}
+
+#similar {
+  margin: 100px -70px 20px -70px;   background: #f2f2f2;   color: #888;   font-style: italic;   font-size: 18px;   text-indent: 160px;   height: 36px;   line-height: 36px;
+}

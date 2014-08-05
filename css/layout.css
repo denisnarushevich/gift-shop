@@ -1,0 +1,104 @@
+html {
+}
+
+body {
+  overflow-y: scroll;
+}
+
+#wrapper {
+  width: 1200px; margin: 0 auto; box-shadow: 0px 0px 16px #bbb;
+}
+
+#hat {
+  height: 157px; background: #fff url('../images/hat-bg.png') repeat-x; overflow: visible; position: relative; z-index: 2;
+}
+
+#hat > .logo {
+  float: left; height: 193px; width: 299px; background: url('../images/hat-logo.png');
+}
+
+#hat > .signup {
+  display: block; position: absolute; right: 32px; top: 22px; color: #fff; font-size: 15px; line-height: 19px; border-bottom: 1px solid #fff;
+}
+
+#hat > .signup:hover {
+  border: none;
+}
+
+#hat > .menu {
+  position: absolute; left: 270px; top: 66px; height: 43px; line-height: 43px;
+  }
+
+#hat > .menu > a {
+  color: #777;  font-size: 12px;  text-decoration: underline; margin: 0 16px;
+  }
+
+#hat > .menu > a:hover {
+  text-decoration: none;  color: #555;
+}
+
+#hat > .select {
+  position: absolute; top: 76px; padding-right: 14px; background: url('../images/hat-triangle.png') no-repeat right 50%;
+}
+
+#hat > .select > a {
+  color: #777; font-size: 15px; font-style: italic; border-bottom: 1px dashed #555;
+}
+
+#hat > .select:hover > a {
+  border: none; cursor: pointer; color: #555;
+}
+
+#hat > .select.curr {
+  left: 740px;
+  }
+
+#hat > .select.lang {
+  left: 810px;
+}
+
+#hat > .checkout {
+  display: block; position: absolute; left: 928px; top: 57px;   height: 51px;   line-height: 60px;   padding-left: 64px;   background: url('../images/hat-gift-icon.png') no-repeat 0% 50%;   color: #777;   font-size: 12px;   text-decoration: underline;
+}
+
+#hat > .checkout:hover {
+  text-decoration: none;   color: #555;
+}
+
+
+
+
+
+
+#footer {
+  margin: 120px 64px 0px 64px;   height: 160px;   border-top: 1px solid #d00427;   position: relative;
+}
+
+#footer .col1 a, #footer .col2 a,#footer .contact a {
+  display: block;   color: #0055cc;   font-size: 12px;   text-decoration: underline;   line-height: 1.4;
+}
+
+#footer .col1 a:hover, #footer .col2 a:hover, #footer .contact a:hover {
+  text-decoration: none;
+}
+
+#footer .col1 {
+  position: absolute;   left: 8px;   top: 24px;
+}
+
+#footer .col2 {
+  position: absolute;   left: 200px;   top: 24px;
+}
+
+#footer img {
+  display: block;   position: absolute;   left: 490px;   top: 16px;
+}
+
+#footer .contact {
+  position: absolute;   right: 0px;   top: 40px;   font-size: 12px;
+}
+
+#footer .copy {
+  position: absolute;   bottom: 20px;   right: 0px;   font-size: 12px;   color: #d00427;
+
+}

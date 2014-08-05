@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css"  media="screen" href="css/common.css" />
+    <link rel="stylesheet" type="text/css"  media="screen" href="css/layout.css" />
+    
+    <link rel="stylesheet" type="text/css"  media="screen" href="css/order.css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/filterSlider.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="hat">
+        <div class="logo"></div>
+        
+        <a href="" class="signup">Вход / регистрация</a>
+        
+        <div class="menu">
+          <a href="index.html">О магазине</a> 
+          <a href="index.html">О товарах</a> 
+          <a href="index.html">Контактная информация</a>
+        </div>
+        
+        <div class="select curr">
+          <a>EUR</a>
+        </div>
+        <div class="select lang">
+          <a>По-русски</a>
+        </div>
+        
+        <a href="" class="checkout">Посмотреть выбранные подарки</a>
+      </div>
+      
+      <div id="order">
+        <h1>Оформление заказа</h1>
+        
+ 
+        <form>
+          <div class="fields">
+            <div class="column">
+              <div class="caption">Покупатель</div>
+              <div class="field">
+                <label>Имя</label>
+                <div class="star"  mandatory>*</div>
+                <input type="text"/>
+              </div>
+              <div class="field"  mandatory>
+                <label>Е-майл</label>
+                <div class="star">*</div>
+                <input type="text"/>
+              </div>
+              <div class="field" mandatory>
+                <label>Телефон</label>
+                <div class="star">*</div>
+                <input type="text"/>
+              </div>
+            </div>
+            <div class="column">
+              <div class="caption">Адрес доставки</div>
+              <div class="field" mandatory>
+                <label>Страна</label>
+                <div class="star">*</div>
+                <input type="text"/>
+              </div>
+              <div class="field" mandatory>
+                <label>Город</label>
+                <div class="star">*</div>
+                <input type="text"/>
+              </div>
+              <div class="field" mandatory>
+                <label>Адрес</label>
+                <div class="star">*</div>
+                <input type="text"/>
+              </div>              
+            </div>
+          </div>
+          
+          <div class="hr"></div>
+          
+          <div id="items" class="columns">
+            <div class="left">
+              <div class="items">
+                <div>
+                  <div class="code">15870</div>
+                  <a href="">Пистолет</a>
+                  <input type="text" value="1"/>
+                </div>
+                <div>
+                  <div class="code">15870</div>
+                  <a href="">Пистолет</a>
+                  <input type="text" value="1"/>
+                </div>
+                <div>
+                  <div class="code">15870</div>
+                  <a href="">Пистолет</a>
+                  <input type="text" value="1"/>
+                </div>
+              </div>
+              <div class="dimensions">
+                <div>
+                  Общий обьём: <span> 35 x 12 x 13 см</span>
+                </div>
+                <div>
+                  Общий вес: <span>0,5 кг</span>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="container">
+                <div></div>
+                <div class="total">242,- &euro;</div>
+                <div class="delivery">(218 + 24 <img src="images/delivery-icon.png"/>)</div>
+                <div class="visa">
+                  <label>
+                <input type="radio" name="payment"/>
+                
+                  <img src="images/visa.png"/>
+                </label>
+                </div>
+                <div class="paypal">
+                  <label>
+                <input type="radio"  name="payment"/>
+                
+                  <img src="images/paypal.png"/>
+                </label>
+                </div>
+                <input class="fancyRedButton" type="button" value="Перейти к оплате"/>
+                <div></div>
+              </div>
+            </div>
+          </div>
+          
+        </form>
+      </div>
+      
+      <div id="footer">
+        <div class="col1">
+          <a href="">О магазине</a>
+          <a href="">О товарах</a>
+          <a href="">Для партрнёров</a>
+          <a href="">Способ оплаты</a>
+        </div>
+        <div class="col2">
+          <a href="">Правила пользования</a>
+          <a href="">Возврат средств</a>
+          <a href="">Политика конфиденциальности</a>
+          <a href="">Условия доставки</a>
+        </div>
+        
+        <img src="images/footer-payments.png"/>
+        
+        <div class="contact">
+          Тел: (371) 23454324
+          <a href="mailto:info@giftshop.com">info@giftshop.com</a>
+        </div>
+        
+        <div class="copy">
+          2012-2013 &copy; Giftshop
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>

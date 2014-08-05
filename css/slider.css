@@ -1,0 +1,71 @@
+#slider {
+  height: 280px;   padding: 0px 36px;    position: relative;   z-index: 1;
+}
+
+#slider > div:first-child {
+  height: 232px;   position: relative;
+}
+
+#slider > div:first-child > .control {
+  display: block;   position: absolute;   width: 20px;   height: 94px;   margin-top: 69px;   background: url('../images/slider-arrows.png');
+}
+
+#slider > div:first-child > .control.left {
+  left: 0px;   background-position: 0px 0px;
+}
+
+#slider > div:first-child > .control.right {
+  right: 0px;   background-position: -20px 0px;
+}
+
+#slider > div:first-child > .control.left:hover {
+  left: 0px;   background-position: 0px -94px;
+}
+
+#slider > div:first-child > .control.right:hover {
+  background-position: -20px -94px;
+}
+
+#slider > div:first-child > .items {
+  position: absolute;   left: 20px;   width: 1088px;   height: 232px;
+}
+
+#slider > div:first-child > .items > .item {
+  display: block;   float: left;   width: 200px;   height: 232px;   margin: 0px 36px;
+}
+
+#slider .items > .item > .image {
+  height: 170px;   overflow: hidden;   position: relative;
+}
+
+#slider .items > .item > .image > img {
+  display: block;   position: absolute;   bottom: 0px;
+}
+
+#slider .items > .item > .name {
+  font-size: 12px;   margin-top: 8px;   color: #3f7fd9;   text-align: center;   white-space: nowrap;   text-decoration: underline;
+}
+
+#slider .items > .item:hover > .name {
+  text-decoration: none;
+}
+
+#slider .items > .item > .price {
+  color: #d83833;   font-style: italic;   font-weight: bold;   font-size: 16px;   text-align: center;   white-space: nowrap;
+}
+
+#slider .items > .item > .price > span {
+  color: #111;   text-decoration: line-through;   font-style: italic;   font-weight: bold;
+}
+
+#slider > div:first-child + div {
+  line-height: 48px;   text-align: right;
+}
+
+#slider > div:first-child + div a {
+  color: #d83833;   text-decoration: underline;   font-size: 12px;
+}
+
+#slider > div:first-child + div a:hover {
+  text-decoration: none;
+}

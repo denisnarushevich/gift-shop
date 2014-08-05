@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css"  media="screen" href="css/common.css" />
+    <link rel="stylesheet" type="text/css"  media="screen" href="css/layout.css" />
+    <link rel="stylesheet" type="text/css"  media="screen" href="css/slider.css" />
+    
+    <link rel="stylesheet" type="text/css"  media="screen" href="css/index.css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/filterSlider.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="hat">
+        <div class="logo"></div>
+        
+        <a href="index.html" class="signup">Вход / регистрация</a>
+        
+        <div class="menu">
+          <a href="index.html">О магазине</a> 
+          <a href="index.html">О товарах</a> 
+          <a href="index.html">Контактная информация</a>
+        </div>
+        
+        <div class="select curr">
+          <a>EUR</a>
+        </div>
+        <div class="select lang">
+          <a>По-русски</a>
+        </div>
+        
+        <a href="cart.html" class="checkout">Посмотреть выбранные подарки</a>
+      </div>
+      
+      <div id="slider">
+        <div>
+          <a href="item.html" class="control left"></a>
+            <div class="items">
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="uploads/test.png"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price"><span>163 &euro;</span> 125 &euro;</div>
+              </a>
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="uploads/test.png"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price"><span>163 &euro;</span> 125 &euro;</div>
+              </a>
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="uploads/test.png"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price"><span>163 &euro;</span> 125 &euro;</div>
+              </a>
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="uploads/test.png"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price"><span>163 &euro;</span> 125 &euro;</div>
+              </a>
+            </div>
+            <a href="" class="control right"></a>
+        </div>
+        <div>
+          <a href="">Смотреть все подарки со скидкой</a>
+        </div>
+      </div>
+      
+      <div id="catalogue">
+        <div class="line"></div>
+        <div class="types">
+          <a href="" active><div>По категориям</div></a>
+          <a href=""><div>Выбрать случайно</div></a>
+          <a href=""><div>Простой поиск</div></a>
+        </div>
+        <div class="tabs">
+          <a href="" active><span>По профессиям и увлечениям</span></a>
+          <a href=""><span>Функциональные</span></a>
+          <a href=""><span>Предметы интерьера</span></a>
+          <a href=""><span>Сувенирное оружие</span></a>
+          <a href=""><span>Акссесуары</span></a>
+          <a href=""><span>Рекламные принадлежности</span></a>
+        </div>
+        <div class="subcats">
+          <div>
+            <a href="">Морские сувениры</a>
+            <a href="">Модели кораблей</a>
+            <a href="">Глобусы</a>
+            <a href="">Рынды</a>
+            <a href="">Настольные часы</a>
+          </div>
+          <div>
+            <a href="">Для авиаторов</a>
+            <a href="">Модели самолётов</a>
+            <a href="">Воздушные шары</a>
+          </div>
+          <div>
+            <a href="">Для спортсменов</a>
+            <a href="">Спорт инвентарь</a>
+            <a href="">Майки с фамилиями</a>
+            <a href="">Бейсболки</a>
+          </div>
+        </div>
+      </div>
+      
+      <div id="filter">
+        
+        <div class="gender">
+          <div>
+            Кому
+          </div>
+          <div>
+            <a href="" class="man" active>
+              <div class="icon"></div>
+              <div class="text">
+                <span>мужчине</span>
+              </div>
+            </a>
+            <a href="" class="woman">
+              <div class="icon"></div>
+              <div class="text">
+                <span>женщине</span>
+              </div>
+            </a>
+            <a href="" class="bi">
+              <div class="icon"></div>
+              <div class="text">
+                <span>коллективные</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+   
+        <div class="price">
+          <div>
+            Цена
+          </div>
+          <div id="filterSlider">
+            <div class="progress">
+              <div class="bar" style="width: 50%"></div>
+              <div class="cursor">
+                <div>100</div>
+              </div>
+            </div>
+          </div>
+          <script>
+            filterSlider.init();
+          </script>
+        </div>
+  
+        
+        <div class="size">
+          <div>
+            Размер
+          </div>
+          <div>
+            <a href="" class="small" active>
+              <div class="icon"></div>
+              <div class="text">
+                <span>15см<sup>3</sup></span>
+              </div>
+            </a>
+            <a href="" class="medium">
+              <div class="icon"></div>
+              <div class="text">
+                <span>25 см<sup>3</sup></span>
+              </div>
+            </a>
+            <a href="" class="big">
+              <div class="icon"></div>
+              <div class="text">
+                <span>50 см<sup>3</sup></span>
+              </div>
+            </a>
+            <a href="" class="huge">
+              <div class="icon"></div>
+              <div class="text">
+                <span>100 см<sup>3</sup></span>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        
+      </div>
+      
+      
+      <div id="products">
+        <h1>Предметы интерьера <span>Разное</span></h1>
+        <div class="items">
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="http://placekitten.com/160/160"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price">125 &euro;</div>
+              </a>
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="http://placekitten.com/160/160"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price">125 &euro;</div>
+              </a>
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="http://placekitten.com/160/160"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price">125 &euro;</div>
+              </a>
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="http://placekitten.com/160/160"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price">125 &euro;</div>
+              </a>
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="http://placekitten.com/160/160"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price">125 &euro;</div>
+              </a>
+          
+            <div></div>
+ 
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="http://placekitten.com/160/160"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price">125 &euro;</div>
+              </a>
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="http://placekitten.com/160/160"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price">125 &euro;</div>
+              </a>
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="http://placekitten.com/160/160"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price">125 &euro;</div>
+              </a>
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="http://placekitten.com/160/160"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price">125 &euro;</div>
+              </a>
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="http://placekitten.com/160/160"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price">125 &euro;</div>
+              </a>
+          
+            <div></div>
+            
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="http://placekitten.com/160/160"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price">125 &euro;</div>
+              </a>
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="http://placekitten.com/160/160"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price">125 &euro;</div>
+              </a>
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="http://placekitten.com/160/160"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price">125 &euro;</div>
+              </a>
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="http://placekitten.com/160/160"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price">125 &euro;</div>
+              </a>
+              <a href="item.html" class="item">
+                <div class="image">
+                  <img src="http://placekitten.com/160/160"/>
+                </div>
+                <div class="name">Кабриолет</div>
+                <div class="price">125 &euro;</div>
+              </a>
+          
+            
+        </div>
+      </div>
+      
+      <div id="pager">
+        <a href="" active>1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href="">5</a>
+      </div>
+      
+      <div id="footer">
+        <div class="col1">
+          <a href="">О магазине</a>
+          <a href="">О товарах</a>
+          <a href="">Для партрнёров</a>
+          <a href="">Способ оплаты</a>
+        </div>
+        <div class="col2">
+          <a href="">Правила пользования</a>
+          <a href="">Возврат средств</a>
+          <a href="">Политика конфиденциальности</a>
+          <a href="">Условия доставки</a>
+        </div>
+        
+        <img src="images/footer-payments.png"/>
+        
+        <div class="contact">
+          Тел: (371) 23454324
+          <a href="mailto:info@giftshop.com">info@giftshop.com</a>
+        </div>
+        
+        <div class="copy">
+          2012-2013 &copy; Giftshop
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>

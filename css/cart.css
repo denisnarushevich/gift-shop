@@ -1,0 +1,79 @@
+#cart {
+  margin: 70px 150px 0px 160px;
+}
+
+#cart > h1 {
+  color: #e93e31;   font-style: italic;   font-size: 18px;   font-weight: normal;
+}
+
+#cart > table {
+  margin-top: 40px;   width: 100%;
+}
+
+#cart > table th {
+  color: #b0b0b0;   text-align: center;   font-size: 12px;   font-style: italic;   font-weight: normal;   line-height: 18px;
+}
+
+#cart > table th:first-child {
+  text-align: left;
+}
+
+#cart > table th:last-child {
+  text-align: right;
+}
+
+#cart > table tr {
+  height: 104px;   border-top: 1px dotted #ccc;
+}
+
+#cart > table tr:first-child {
+  border-bottom: 1px solid #c0c0c0;   height: 18px;   border-top: none;
+}
+
+#cart > table td {
+  text-align: center;   font-size: 18px;   font-style: italic;   color: #111;
+}
+
+#cart > table td.image {
+  width: 128px;   padding-left: 16px;
+}
+
+#cart > table td.image img {
+  display: block;
+}
+
+#cart > table td.name {
+  width:380px;
+}
+
+#cart > table td.name a {
+  color: #3f7fd9;   text-decoration: underline;   font-style: normal;   font-size: 12px;
+}
+
+#cart > table td.name {
+  padding-left: 32px;   text-align: left;   font-size: 13px;   line-height: 15px;
+}
+
+#cart > table td.name span {
+  color: #b0b0b0;   font-size: 13px;
+}
+
+#cart > table .amount input {
+  display: inline-block;   width: 28px;   height: 20px;   line-height: 20px;   font-size: 16px;   font-style: italic;   text-align: right;   color: #111;   padding: 1px 6px;   border: 1px solid #c0c0c0;
+}
+
+#cart table .total {
+  height: 30px;   border: 1px solid #ccc;   border-width: 1px 0px;
+}
+
+#cart table .total > td:first-child {
+  color: #888;   text-align: left;   font-size: 18px;   font-weight: normal;   padding-left: 30px;
+}
+
+#cart > #submitContainer {
+  height: 32px;   padding-top: 20px
+}
+
+#cart > #submitContainer  > input {
+  display: block;   float: right;
+}
